@@ -1,0 +1,33 @@
+.table {
+    margin-top: 20px;
+    overflow: scroll;
+    height: 400px;
+    color: #6a5d5d;
+    font-weight: 500;
+    width: 100%;
+    min-width: 500px;
+}
+
+@media (max-width: 486px) {
+    .table {
+        min-width: 300px;
+    }
+}
+
+table {
+    width: 100%;
+}
+
+tbody tr {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FF8294;
+}
+
+tbody td {
+    padding: 0.5rem;
+}
+
+tbody tr:nth-of-type(odd){
+    background-color: #f3f2f8;
+}
